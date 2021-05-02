@@ -1,0 +1,56 @@
+{{#each alumnos}}
+  <form method="post" action="/alumnos/confirmarmodifica">
+  Ingrese nueva descripcion del articulo:
+  <input type="NombreAlumno" name="NombreAlumno" size="50" value="{{NombreAlumno}}">
+  <br>
+  Ingrese nuevo apellido del alumno:
+  <input type="text" name="ApellidoAlumno" size="10" value="{{ApellidoAlumno}}">
+  <input type="hidden" name="MatriculaAlumno" size="10" value="{{MatriculaAlumno}}">  
+  <br>
+  Ingrese nuevo domicilio del alumno:
+  <input type="text" name="Domicilio" size="10" value="{{Domicilio}}">
+  <input type="hidden" name="MatriculaAlumno" size="10" value="{{MatriculaAlumno}}">  
+  <br>
+  Ingrese nuevo Curso del alumno:
+  <input type="text" name="CursoAlumno" size="10" value="{{CursoAlumno}}">
+  <input type="hidden" name="MatriculaAlumno" size="10" value="{{MatriculaAlumno}}">  
+  <br>
+  Ingrese nueva division del alumno:
+  <input type="text" name="DivisionAlumno" size="10" value="{{DivisionAlumno}}">
+  <input type="hidden" name="MatriculaAlumno" size="10" value="{{MatriculaAlumno}}">  
+  <br>
+  Ingrese nuevo turno del alumno:
+  <input type="text" name="TurnoAlumno" size="10" value="{{TurnoAlumno}}">
+  <input type="hidden" name="MatriculaAlumno" size="10" value="{{MatriculaAlumno}}">  
+  <br>
+  Ingrese nueva fecha de nacimiento del alumno:
+  <input type="text" name="FechaNacAlumno" size="10" value="{{FechaNacAlumno}}">
+  <input type="hidden" name="MatriculaAlumno" size="10" value="{{MatriculaAlumno}}">  
+  <br>
+  Ingrese nuevo email del alumno:
+  <input type="text" name="EmailAlumno" size="10" value="{{EmailAlumno}}">
+  <input type="hidden" name="MatriculaAlumno" size="10" value="{{MatriculaAlumno}}">  
+  <br>
+  Ingrese el codigo postal del alumno:
+  <input type="text" name="cod_postal" size="10" value={{cod_postal}}>
+  <input type="hidden" name="MatriculaAlumno" size="10" value="{{MatriculaAlumno}}"> 
+  <br>
+  Ingrese el grupo sanguineo del alumno:
+  <input type="text" name="grupo_sang_alumno" size="10" value={{grupo_sang_alumno}}>
+  <input type="hidden" name="MatriculaAlumno" size="10" value="{{MatriculaAlumno}}"> 
+  <br>
+  Ingrese el Telefono fijo del alumno:
+  <input type="text" name="tel_fijo_alumno" size="40" value={{tel_fijo_alumno}}>
+  <input type="hidden" name="MatriculaAlumno" size="10" value="{{MatriculaAlumno}}"> 
+  <br>
+  Ingrese el telefono movil del alumno:
+  <input type="text" name="tel_movil_alumno" size="10" value={{tel_movil_alumno}}>
+  <input type="hidden" name="MatriculaAlumno" size="10" value="{{MatriculaAlumno}}"> 
+  <br>
+  Ingrese el DNI del alumno:
+  <input type="text" name="dni_alumno" size="10"value={{dni_alumno}}>
+  <input type="hidden" name="MatriculaAlumno" size="10" value="{{MatriculaAlumno}}"> 
+  <br>
+  <input type="submit" class="btn btn-green" value="Modificar">
+  </form>
+{{/each}}  
